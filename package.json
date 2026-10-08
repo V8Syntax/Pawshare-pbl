@@ -1,0 +1,18 @@
+{
+  "name": "pawpath",
+  "version": "1.0.0",
+  "description": "Shelters and caregivers list animals; adopters search, get matched by lifestyle and location, apply, message, and complete post-adoption check-ins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "npm start --prefix server",
+    "frontend": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
